@@ -1,10 +1,37 @@
 body {
-    
+
     /* page size */
+    position: relative;
     width: 1440px;
-    height: 1024;
+    height: 1024px;
 
     /* background */
     background: #F3F5FC;
+
+}
+
+/*               Rectangle                 */
+
+.rectangle {
+
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+}
+
+.image-high {
+
+    margin: 243px 32px 397px;
 
 }
