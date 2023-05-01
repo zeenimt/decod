@@ -32,6 +32,13 @@ body {
 }
 /*=======================================*/
 
+.content {
+
+    width: 100%;
+    height: auto;
+
+}
+
 /*                Frame-1                */
 
 .frame-1 {
@@ -43,7 +50,7 @@ body {
     align-items:    center;
     padding:        0px;
     gap:            8px;
-    
+
     width:      336px;
     height:     122px;
 
