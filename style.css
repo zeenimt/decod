@@ -7,7 +7,7 @@ body {
     margin:     0 auto;
 
     /* background */
-    background: #F3F5FC;
+    background: #E9ECF8;
 
 }
 
@@ -30,6 +30,43 @@ body {
     top:      40px;
 
 }
+/*=======================================*/
+
+/*                Frame-1                */
+
+.frame-1 {
+
+    /* Auto layout */
+
+    display:        flex;
+    flex-direction: row;
+    align-items:    center;
+    padding:        0px;
+    gap:            8px;
+    
+    width:      336px;
+    height:     122px;
+
+}
+
+.help {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+
+    opacity: 0.8;
+
+}
+
 /*=======================================*/
 
 /*               Rectangle               */
@@ -58,6 +95,64 @@ body {
     margin-left:   32px;
     margin-right:  32px;
     margin-bottom: 32px;
+
+}
+
+.frame-5 {
+
+    /* Frame 5 */
+
+
+    /* Auto layout */
+
+    width:  336px;
+    height: 122px;
+    margin: 0 32px 243px;
+
+    display:        flex;
+    flex-direction: column;
+    align-items:    flex-start;
+    padding:        0px;
+    gap:            16px;
+
+}
+
+#text-cript {
+
+    width:  336px;
+    height: 58px;
+    
+
+    font-family:    'Inter';
+    font-style:     normal;
+    line-height:    120%;
+    /* or 29px */
+
+    text-align:     center;
+
+    /* Gray/gray-500 */
+
+    color:        #343A40;
+
+    /* Inside auto layout */
+
+    flex:       none;
+    order:      0;
+    align-self: stretch;
+    flex-grow:  0;
+
+}
+
+#text-demo {
+
+    font-family:    'Inter';
+    font-style:     normal;
+    font-weight:    400;
+    font-size:      16px;
+    line-height:    150%;
+    /* or 24px */
+
+    text-align:     center;
 
 }
 
