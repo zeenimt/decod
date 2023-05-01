@@ -5,8 +5,9 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fonts/Inter-Bold.ttf">
     <title>Decodificador - ONE & Alura</title>
 
 </head>
@@ -27,10 +28,23 @@
 
         <div class="content">
 
+            <div class="text-user">
+
+                <input class="type-text" type="text" placeholder="Digite seu texto">
+
+            </div>
+
             <div class="frame-1">
 
                 <img src="./images/Group.svg">
                 <p class="help"> Apenas letras minúsculas e sem acento.</p>
+
+            </div>
+
+            <div class="frame-3">
+
+                <button id="cript"><span class="text-button">Criptografar</span></button>
+                <button id="descript"><span class="text-button">Descriptografar</span></button>
 
             </div>
 
@@ -41,8 +55,7 @@
                 <div class="frame-5">
 
                     <h1 id="text-cript">Nenhuma mensagem encontrada</h1>
-                    <p id="text-demo">Nenhuma mensagem encontrada
-                        Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    <p id="text-demo">Digite um texto que você deseja criptografar ou descriptografar.</p>
 
                 </div>
             </div>
