@@ -3,13 +3,9 @@ let inputEncripted = document.querySelector("#text-cript");
 let textDemo = document.querySelector("#text-demo")
 let image = document.querySelector(".image-high");
 
+function verifyEmpty() {
 
-function cript() {
-    
-    /*                  declaração                  */
-    let textToCript = inputTextTo.value;
     let emptyText = true;
-    /*----------------------------------------------*/
 
     if (textToCript.length == 0) {
         emptyText = true;
@@ -17,6 +13,16 @@ function cript() {
     } else {
         emptyText = false;
     }
+
+}
+
+
+function cript() {
+    
+    /*                  declaração                  */
+    let textToCript = inputTextTo.value;
+    /*----------------------------------------------*/
+
 
     if (!emptyText) {
         /*                 substituição                 */
