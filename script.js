@@ -7,12 +7,14 @@ function verifyEmpty() {
 
     let emptyText = true;
 
+    /*      Verificação de caixa de texto vazio     */
     if (textToCript.length == 0) {
         emptyText = true;
         return alert("Você não inseriu nenhum texto para ser criptografado/descriptografado!")
     } else {
         emptyText = false;
     }
+    /*----------------------------------------------*/
 
 }
 
