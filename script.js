@@ -5,17 +5,11 @@ let image = document.querySelector(".image-high");
 
 function verifyEmpty() {
 
-    let emptyText = true;
-
+    
     /*      Verificação de caixa de texto vazio     */
-    if (textToCript.length == 0) {
-        emptyText = true;
-        return alert("Você não inseriu nenhum texto para ser criptografado/descriptografado!")
-    } else {
-        emptyText = false;
-    }
+    
     /*----------------------------------------------*/
-
+    
 }
 
 
@@ -23,8 +17,16 @@ function cript() {
     
     /*                  declaração                  */
     let textToCript = inputTextTo.value;
+    let emptyText = true;
     /*----------------------------------------------*/
 
+    if (textToCript.length == 0) {
+        emptyText = true;
+        return alert("Você não inseriu nenhum texto para ser criptografado/descriptografado!")
+    } else {
+        emptyText = false;
+    }
+    
 
     if (!emptyText) {
         /*                 substituição                 */
@@ -37,7 +39,7 @@ function cript() {
 
         /*                style and text                */
         inputEncripted.style.margin = "32px auto";
-        inputEncripted.innerHTML = '<span style="color: black; font-size: 20px">' + textToCript + "</span>";
+        inputEncripted.innerHTML = '<textarea disabled rows="30" style="color: black; width: 100%; font-size: 25px; resize: none">' + textToCript + "</textarea>";
         image.remove();
         textDemo.remove();
         /*----------------------------------------------*/
