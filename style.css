@@ -341,4 +341,36 @@ body, html {
 
 }
 
+.encripted {
+
+    width: 100%;
+    height: auto;
+
+    word-wrap: break-word;
+    overflow-x: hidden;
+    overflox-y: scroll;
+
+}
+
+.btnCopy {
+
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    padding: 24px;
+    margin-top: 25px;
+
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+}
+
+.btnCopy:hover {
+
+    background: #072B61;
+    transition: 500ms all ease;
+
+}
+
 /*=======================================*/
