@@ -35,7 +35,7 @@ function cript() {
 
         /*                style and text                */
         inputEncripted.style.margin = "32px auto";
-        inputEncripted.innerHTML = '<span class="encripted" style="color: black; font-size: 20px">' + textToCript + "</span><br><button class='btnCopy' data-clipboard-target='.encripted'><span class='text-button'>Copiar texto</span></button";
+        inputEncripted.innerHTML = '<span class="encripted" style="color: black; font-size: 20px">' + textToCript + '</span><br><button class="btnCopy" data-clipboard-target=".encripted"><span class="text-button">Copiar texto</span></button';
         image.style.display = "none";
         textDemo.style.display = "none";
         /*----------------------------------------------*/

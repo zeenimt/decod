@@ -342,31 +342,43 @@ body, html {
 
     width: 100%;
     height: auto;
+    
 
     word-wrap: break-word;
     overflow-x: hidden;
-    overflox-y: scroll;
+    overflow-y: scroll;
 
 }
 
 .btnCopy {
-
+    
     width: 100%;
     height: auto;
-    font-size: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 19px;
+    text-align: center;
+
     padding: 24px;
     margin-top: 25px;
 
-    color: #0A3871;
     border: 1px solid #0A3871;
     border-radius: 24px;
-
+    
+    color: #0A3871;
+    background: #D8DFE8;
+    transition: 500ms all ease;
+    
 }
 
 .btnCopy:hover {
-
-    background: #072B61;
+    
     transition: 500ms all ease;
+    background-color: #EFF1FA;
+
 
 }
 
