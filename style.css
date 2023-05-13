@@ -267,10 +267,7 @@ body, html {
 
 .image-high {
 
-    margin-top:    243px;
-    margin-left:   32px;
-    margin-right:  32px;
-    margin-bottom: 32px;
+    margin: 243px 32px 32px;
 
 }
 
