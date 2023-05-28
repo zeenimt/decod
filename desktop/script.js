@@ -29,9 +29,9 @@ function cript() {
 
         if (validation.test(textToCript)) {
             /*                 substituição                 */
-            textToCript = textToCript.replace(/a/g, "ai");
             textToCript = textToCript.replace(/e/g, "enter");
             textToCript = textToCript.replace(/i/g, "imes");
+            textToCript = textToCript.replace(/a/g, "ai");
             textToCript = textToCript.replace(/o/g, "ober");
             textToCript = textToCript.replace(/u/g, "ufat");
             /*----------------------------------------------*/
